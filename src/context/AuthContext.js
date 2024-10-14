@@ -2,6 +2,7 @@ import React, { createContext, useState, useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import Config from "react-native-config";
+import { LOGIN_API } from '../constants/endpoints';
 
 // Create the AuthContext with default values
 export const AuthContext = createContext({
@@ -41,7 +42,7 @@ export const AuthProvider = ({ children }) => {
   // Login method
   const login = async (username, password) => {
     try {
-      const response = await axios.post(Config.BASE_URL+'/auth/login', {
+      const response = await axios.post(Config.BASE_URL+LOGIN_API, {
         username,
         password,
         expiresInMins: 30, // Optional

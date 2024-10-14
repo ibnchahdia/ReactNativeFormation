@@ -46,6 +46,9 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeFormation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeFormation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeFormation/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeFormation-ReactNativeFormationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeFormation-ReactNativeFormationTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeFormation-ReactNativeFormationTests/Pods-ReactNativeFormation-ReactNativeFormationTests.release.xcconfig"; sourceTree = "<group>"; };
+		99055AF22CB8ADDC009D7D6D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		99055AF32CB8ADF1009D7D6D /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		99055AF42CB8ADF9009D7D6D /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -121,6 +124,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				99055AF12CB8ADA4009D7D6D /* Resources */,
 				13B07FAE1A68108700A75B9A /* ReactNativeFormation */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeFormationTests */,
@@ -140,6 +144,16 @@
 				00E356EE1AD99517003FC87E /* ReactNativeFormationTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		99055AF12CB8ADA4009D7D6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99055AF22CB8ADDC009D7D6D /* Montserrat-Regular.ttf */,
+				99055AF32CB8ADF1009D7D6D /* Montserrat-Bold.ttf */,
+				99055AF42CB8ADF9009D7D6D /* Montserrat-Light.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {

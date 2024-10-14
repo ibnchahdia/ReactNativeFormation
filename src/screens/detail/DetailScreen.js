@@ -1,26 +1,19 @@
-// screens/DetailScreen.js
-
 import React from 'react';
 import {
-  View,
   Text,
   Image,
   StyleSheet,
   ScrollView,
   Button,
-  Alert,
 } from 'react-native';
-import { useDispatch } from 'react-redux';
-import { addToCart } from '../redux/slices/cartSlice';
+import useDetail from './useDetail';
 
 export default function DetailScreen({ route, navigation }) {
-  const { product } = route.params;
-  const dispatch = useDispatch();
 
-  const handleAddToCart = () => {
-    dispatch(addToCart(product));
-    Alert.alert('Success', 'Product added to cart!');
-  };
+  const {
+    product,
+    handleAddToCart,
+  } = useDetail(route); 
 
   return (
     <ScrollView contentContainerStyle={styles.container}>

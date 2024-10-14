@@ -4,9 +4,9 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-import HomeScreen from '../screens/HomeScreen';
-import ProfileScreen from '../screens/ProfileScreen';
-import CartScreen from '../screens/CartScreen'; // Newly created Cart Screen
+import HomeScreen from '../screens/home/HomeScreen';
+import ProfileScreen from '../screens/profile/ProfileScreen';
+import CartScreen from '../screens/cart/CartScreen'; // Newly created Cart Screen
 
 const Tab = createBottomTabNavigator();
 

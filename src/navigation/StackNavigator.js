@@ -3,9 +3,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 // Import navigators and screens
 import DrawerNavigator from './DrawerNavigator';
-import LoginScreen from '../screens/LoginScreen'; // Ensure this exists
+import LoginScreen from '../screens/login/LoginScreen'; // Ensure this exists
 import { AuthContext } from '../context/AuthContext'; // Adjust the path as necessary
-import DetailScreen from '../screens/DetailScreen';
+import DetailScreen from '../screens/detail/DetailScreen';
 
 const Stack = createStackNavigator();
 
